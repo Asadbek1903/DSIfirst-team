@@ -15,8 +15,35 @@ body {
   padding: 0 20px;
 }
 
-/* header css start  Behruz*/
-
+/* header css start  Asadbek*/
+.site-header {
+  padding-top: 22px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-logo {
+  padding-bottom: 20px;
+}
+.header-inner__list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.header-list__item {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+}
+.header-inner__logos {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 /* header css end */
 
 /* --------------------------------- */
@@ -83,5 +110,57 @@ body {
 /* --------------------- */
 
 /* Footer Asadbek Start */
-
+.contact__section {
+  background-color: #e5e5e5;
+  padding-bottom: 24px;
+}
+.contact-section {
+  display: flex;
+  justify-content: flex-start;
+  gap: 47px;
+}
+.contact__title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #263238;
+  padding-bottom: 8px;
+}
+.contact__address {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+.contact__contact-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-side__title {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #263238;
+}
+.contact-side__link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+.contact-side__link:hover {
+  color: #ee4248;
+}
+.under-footer {
+  background-color: #ee4248;
+  padding-top: 22px;
+  padding-bottom: 21px;
+}
+.under-footer__description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
 /* Footer Asadbek end */
