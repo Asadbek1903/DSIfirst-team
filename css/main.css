@@ -15,8 +15,10 @@ body {
   padding: 0 20px;
 }
 
-/* header css start  Asadbek*/
+/* header css start */
 .site-header {
+  position: fixed;
+  width: 100%;
   padding-top: 22px;
   background-color: #ffffff;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
@@ -48,19 +50,73 @@ body {
 
 /* --------------------------------- */
 
-/* hero css Diyor  start*/
-
-/* hero css Diyor  end*/
+/* hero css start*/
+.hero-section {
+  background-color: #e5e5e5;
+  padding-top: 210px;
+  padding-bottom: 160px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #1f2e35;
+  margin-bottom: 24px;
+}
+.red {
+  color: #ee4248;
+}
+.hero__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #30444e;
+  margin-bottom: 24px;
+}
+/* hero css   end*/
 
 /* --------------------------------------- */
 
-/* Welcome Diyor Start */
-
-/* Welcome Diyor end */
+/* Welcome Start */
+.welcome-section {
+  background-color: #f6f6f6;
+  padding-top: 57px;
+  padding-bottom: 63px;
+}
+.welcome-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1f2e35;
+}
+.welcome__description {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+}
+.welcome__info {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+}
+/* Welcome end */
 
 /* --------------------------- */
 
-/* Product Asadbek Start */
+/* Product Start */
 .product-section {
   background-color: #e5e5e5;
   padding-top: 116px;
@@ -105,11 +161,11 @@ body {
   border: 1px solid#ee4248;
   background-color: #ffffff;
 }
-/* Product Asadbek end */
+/* Product end */
 
 /* --------------------- */
 
-/* Footer Asadbek Start */
+/* Footer Start */
 .contact__section {
   background-color: #e5e5e5;
   padding-bottom: 24px;
@@ -163,4 +219,4 @@ body {
   font-size: 18px;
   color: #ffffff;
 }
-/* Footer Asadbek end */
+/* Footer end */
